@@ -1,16 +1,26 @@
-# React + Vite
+# Akash Chandra — Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Personal portfolio site of Akash Chandra, a software developer specializing in Go, cloud-native architectures (GCP/AWS), and distributed systems.
 
-Currently, two official plugins are available:
+Built with React, Vite, and Tailwind CSS. Minimal, monochrome, fast — no heavy frameworks, no tracking.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Sections
 
-## React Compiler
+- **Experience** — Ollion (formerly CloudCover), Skynox Tech, Dotsquares
+- **Projects** — Cassandra-to-Bigtable proxy (built with Google's Bigtable team), Gen-AI chatbots on Bedrock and Vertex AI, multi-cloud provisioning, and more
+- **Education & Certifications** — 4× Google Cloud certified
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Development
 
-## Expanding the ESLint configuration
+```sh
+npm install
+npm run dev      # local dev server
+npm run build    # production build to dist/
+npm run lint     # eslint
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Contact
+
+- Email: akashchandra1369@gmail.com
+- LinkedIn: [linkedin.com/in/akashchandra11](https://www.linkedin.com/in/akashchandra11)
+- GitHub: [github.com/inept101](https://github.com/inept101)

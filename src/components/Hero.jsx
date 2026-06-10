@@ -28,6 +28,14 @@ export default function Hero() {
         >
           Get in Touch
         </a>
+        <a
+          href="/resume.pdf"
+          target="_blank"
+          rel="noopener"
+          className="px-4 py-2 border border-zinc-300 dark:border-zinc-700 text-zinc-700 dark:text-zinc-300 text-sm font-medium rounded-md hover:border-zinc-500 dark:hover:border-zinc-500 transition-colors"
+        >
+          Resume
+        </a>
       </div>
     </section>
   )

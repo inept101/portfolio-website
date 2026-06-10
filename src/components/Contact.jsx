@@ -32,6 +32,7 @@ export default function Contact() {
           <a
             key={label}
             href={href}
+            {...(href.startsWith('http') && { target: '_blank', rel: 'noopener noreferrer' })}
             className="flex items-center gap-2 px-4 py-2 text-sm border border-zinc-200 dark:border-zinc-800 rounded-md text-zinc-600 dark:text-zinc-400 hover:border-zinc-400 dark:hover:border-zinc-600 hover:text-zinc-900 dark:hover:text-zinc-200 transition-colors font-mono"
           >
             {icon}
