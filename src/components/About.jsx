@@ -32,6 +32,8 @@ export default function About() {
               ['Location', 'Pune, India (Remote)'],
               ['Experience', '4+ years'],
               ['Focus', 'Go · Cloud · Distributed Systems'],
+              ['Certifications', '4× Google Cloud certified'],
+              ['Education', 'B.Tech CS, Rajasthan Technical University'],
               ['Languages', 'English, Hindi'],
             ].map(([label, value]) => (
               <li key={label} className="flex gap-3">

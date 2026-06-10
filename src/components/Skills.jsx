@@ -1,8 +1,8 @@
 const skills = {
-  'Languages & Frameworks': ['Golang', 'TypeScript', 'JavaScript', 'Python', 'Java', 'C++', 'Node.js', 'Express', 'React', 'Next.js', 'Vue.js', 'Gin'],
-  Databases: ['PostgreSQL', 'MySQL', 'MongoDB', 'Redis', 'YugabyteDB', 'Bigtable', 'Cassandra', 'NoSQL'],
-  'Cloud & DevOps': ['GCP', 'AWS', 'Azure', 'Docker', 'Kubernetes', 'Cloud Functions', 'Serverless', 'CI/CD'],
-  'Architecture & Tools': ['Microservices', 'gRPC', 'Protobuf', 'Kafka', 'Vertex AI', 'AWS Bedrock', 'REST', 'OOP'],
+  'Languages & Frameworks': ['Golang', 'TypeScript', 'JavaScript', 'Python', 'C++', 'Node.js', 'Express', 'Gin', 'React', 'Next.js', 'Vue.js', 'Quasar', 'Redux', 'Tailwind'],
+  Databases: ['PostgreSQL', 'MySQL', 'MongoDB', 'YugabyteDB', 'Bigtable', 'Cassandra', 'NoSQL'],
+  'Cloud & DevOps': ['GCP', 'AWS', 'Azure', 'Docker', 'Kubernetes', 'Cloud Functions', 'CI/CD', 'Git'],
+  'Architecture & Testing': ['Microservices', 'Distributed Systems', 'gRPC', 'Kafka', 'Vertex AI', 'AWS Bedrock', 'REST', 'OOP', 'Jest', 'Sinon', 'Playwright'],
 }
 
 export default function Skills() {

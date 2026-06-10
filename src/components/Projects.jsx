@@ -2,33 +2,49 @@ const projects = [
   {
     name: 'cassandra-bigtable-proxy',
     description:
-      'Go proxy that translates Cassandra binary protocol to Bigtable gRPC calls using DataStax libraries and Protobuf. Achieved 5ms latency overhead — enabling zero-code-change migrations from Cassandra to Bigtable.',
+      'Go proxy translating Cassandra CQL binary protocol (DataStax) to Bigtable via lexical grammar, Protobuf, and gRPC — built with Google\'s Bigtable team. Achieved 5ms latency overhead, enabling zero-code-change migrations.',
     tags: ['Go', 'gRPC', 'Protobuf', 'Bigtable', 'Cassandra'],
-    github: '#',
+    github: null,
+    demo: null,
+  },
+  {
+    name: 'aws-genai-chatbot',
+    description:
+      'Secure, air-gapped Gen-AI chatbot for a financial client with dynamic model selection and RAG via Bedrock Knowledge Bases. Image generation with Titan and Stability AI, hardened with Bedrock Guardrails, SSO (ADFS), and AWS Cognito.',
+    tags: ['AWS Bedrock', 'RAG', 'GenAI', 'Cognito'],
+    github: null,
+    demo: null,
+  },
+  {
+    name: 'gemini-ai-chatbot',
+    description:
+      'Internal AI chatbot on Gemini AI and Google Cloud AI Platform (Vertex AI, ADK, Gemini SDK) with custom agents and RAG over internal documents. Go backend, React frontend, LangChain/LangGraph orchestration.',
+    tags: ['Go', 'Vertex AI', 'Gemini', 'React', 'LangChain'],
+    github: null,
     demo: null,
   },
   {
     name: 'multi-cloud-provisioner',
     description:
-      'Multi-cloud account provisioning portal using Go and Node.js. Automates secure setup across GCP, AWS, and Azure with RBAC (Azure AD), billing APIs, and infrastructure orchestration for enterprise clients.',
-    tags: ['Go', 'Node.js', 'GCP', 'AWS', 'Azure'],
-    github: '#',
+      'Cloud provisioning management portal automating secure account setup across GCP, AWS, and Azure — project provisioning, billing & budgeting, RBAC via Azure AD, and notifications.',
+    tags: ['Go', 'Vue.js', 'Postgres', 'Azure', 'Kubernetes'],
+    github: null,
     demo: null,
   },
   {
-    name: 'rag-ai-chatbot',
+    name: 'cross-cloud-modules',
     description:
-      'Internal RAG-based AI Chatbot built with Vertex AI and Go. Also implemented an air-gapped AWS Bedrock variant for financial sector clients using Titan and Stability AI models.',
-    tags: ['Go', 'Vertex AI', 'AWS Bedrock', 'GenAI', 'RAG'],
-    github: '#',
+      'Reusable cross-cloud library in Go, JavaScript, and Python — built on interfaces, goroutines, and chunking — for GCS, Pub/Sub, S3, SQS, SNS, logging, auth, and config, with comprehensive unit and integration tests.',
+    tags: ['Go', 'JavaScript', 'Python', 'Goroutines', 'S3'],
+    github: null,
     demo: null,
   },
   {
-    name: 'cloud-sdk',
+    name: 'notion-templates-store',
     description:
-      'Internal Go SDK using interfaces, goroutines, and chunking to standardize and optimize cross-cloud storage interactions (S3, GCS, Pub/Sub) across all company projects.',
-    tags: ['Go', 'GCS', 'S3', 'Pub/Sub', 'Goroutines'],
-    github: '#',
+      'eCommerce app for buying Notion templates, built from scratch with Next.js, MongoDB, and Next API middleware. Stripe, PayPal, and Coinbase Commerce payments with payouts APIs for seller balances.',
+    tags: ['Next.js', 'MongoDB', 'Stripe', 'TailwindCSS'],
+    github: null,
     demo: null,
   },
 ]

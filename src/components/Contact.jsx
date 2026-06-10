@@ -19,13 +19,13 @@ export default function Contact() {
             icon: <EmailIcon />,
           },
           {
-            label: 'github.com/akashc',
-            href: '#',
+            label: 'github.com/inept101',
+            href: 'https://github.com/inept101',
             icon: <GitHubIcon />,
           },
           {
-            label: 'linkedin.com/in/akashc',
-            href: '#',
+            label: 'linkedin.com/in/akashchandra11',
+            href: 'https://www.linkedin.com/in/akashchandra11',
             icon: <LinkedInIcon />,
           },
         ].map(({ label, href, icon }) => (
